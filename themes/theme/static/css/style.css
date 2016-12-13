@@ -1,0 +1,55 @@
+.hero.title h1 {
+  font-size: 5rem;
+}
+
+.menu-separator {
+  font-size: 0.7rem;
+  vertical-align: middle;
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul.multiple > li:before {
+  display: none;
+}
+
+li:before {
+  font-family: 'FontAwesome';
+  content: '\f054';
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.post .date {
+  margin: 0 0 1em 0;
+}
+
+li .divider {
+  font-size: 0.9rem;
+  padding: 2rem 0 0 0;
+}
+
+.chat, code {
+  background-color: #1F1F1F;
+  font-family: 'VT323', monospace;
+  color: orange;
+}
+
+code {
+  font-size: 100%
+}
+
+#chatbox {
+  display: none;
+  height: 20em;
+  position: relative;
+  overflow-y: auto;
+}
+
+#chatArea {
+  position: absolute;
+  bottom: 0;
+}

@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="row">
+  <section id="main" class="blog single post col-md-12">
+    {{ partial "item-header" . }}
+    <div class="row">
+      <article class="content col-md-12">
+        {{ .Content }}
+      </article>
+    </div>
+  </section>
+</div>
+{{ end }}

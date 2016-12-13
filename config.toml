@@ -1,0 +1,12 @@
+baseurl = "https://www.hugo.site"
+title = "site"
+theme = "theme"
+
+[params]
+  googleAnalytics = ""
+  author = "Eugene Brodsky"
+  description = ""
+  copyright = "2016 Eugene Brodsky"
+
+  # separator (fontawesome)
+  separator = "circle"

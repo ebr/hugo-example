@@ -1,0 +1,11 @@
+{{ define "main" }}
+<section id="main" class="row">
+  <div class="col-xs-12">
+    <ul class="multiple blog post list-unstyled">
+      {{ range .Data.Pages }}
+          {{ .Render "li-long"}}
+      {{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
